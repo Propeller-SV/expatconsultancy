@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Expatconsultany\n"
+"POT-Creation-Date: 2015-07-16 20:48+0200\n"
+"PO-Revision-Date: 2015-07-16 20:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: Fractal Soft <sales@fractal-soft.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/func/attach_files_metabox.php:16
+msgid "Custom Attachments"
+msgstr "Пользовательские приложения"
+
+#: admin/func/attach_files_metabox.php:34
+msgid "Upload your files here"
+msgstr "Загрузите ваши файлы"
+
+#: admin/func/attach_files_metabox.php:42
+msgid "Remove file"
+msgstr "Удалить файл"
+
+#: admin/func/attach_files_metabox.php:91
+msgid "There was an error uploading your file. The error is: "
+msgstr "Произошла ошибка при загрузке файла. Ошибка является:"
+
+#: admin/func/attach_files_metabox.php:98
+msgid "The file type that you've uploaded is not a PDF or doc"
+msgstr "Тип файла, который вы загрузили не является PDF или doc"
+
+#: admin/func/attach_files_metabox.php:121
+#: admin/func/attach_files_metabox.php:140
+msgid "There was an error trying to delete your file."
+msgstr "Произошла ошибка при попытке удаления файла."
+
+#: footer.php:3
+msgid "Copyright"
+msgstr "Авторские права от"
+
+#: footer.php:3
+msgid "Designed by"
+msgstr "Дизайн от"
+
+#: for_candidates_template.php:27
+msgid "Download"
+msgstr "Скачать"
+
+#: functions.php:94
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: index.php:29
+msgid "Sorry, no posts matched your criteria."
+msgstr "Извините, не найдено записей по Вашему запросу"

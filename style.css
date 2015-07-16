@@ -1,0 +1,240 @@
+/*
+Theme name: EXPATCONSULTANY
+Theme URI: http://www.example.com
+Author: Serhii Prokhorenko
+Author URI: http://www.example.com
+Description: Simple theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+Text domain: expatconsultany
+*/
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+.cover {
+	background: url('img/background.png') 100% 100% no-repeat;
+	background-size: cover;
+	display:block;
+	width: 100%;
+}
+
+/*
+*=======================================================================================================
+* GENERAL STYLES
+*=======================================================================================================
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+a:focus {
+	outline: none !important;
+}
+.custom-active {
+	color: #ff6002 !important;
+}
+.logo:hover,
+.logo:focus,
+.logo {
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+}
+.logo span {
+	color: #ff6002;
+}
+.background-color {
+	background-color: #000;
+}
+
+/*
+*=======================================================================================================
+* HEADER
+*=======================================================================================================
+*/
+
+/* --- header-content ---*/
+
+.header-content {
+	margin-top: 73px;
+	opacity: 0.7;
+}
+.header-content a {
+	padding-top: 30px;
+}
+.header-content {
+	padding: 0 30px;
+}
+
+/* --- lists ---*/
+
+.header-content .list-top li a {
+	font-size: 12px;
+	color: #fff;
+	padding-top: 25px;
+	padding-bottom: 2px;
+}
+.header-content .list-bottom li a {
+	font-size: 16px;
+	color: #fff;
+	padding-top: 2px;
+	padding-bottom: 25px;
+}
+.header-content li a:hover,
+.header-content li a:focus {
+	color: #ff6002;
+	background-color: #000;
+}
+.header-content li.current-menu-item a{             /*psv edition*/
+	color: #ff6002;
+}
+
+/*
+*=======================================================================================================
+* VACANCIES-CONTENT
+*=======================================================================================================
+*/
+
+/* --- vacancies-content ---*/
+
+.vacancies-content .background-color {
+	opacity: 0.9;
+}
+
+/* --- (vacancies-page, expatconsultany-page) ---*/
+
+.content {
+	margin-top: 29px;
+}
+.content p {
+	color: #fff;
+	line-height: 17px;
+	padding: 0 25px;
+}
+.content .content-text {
+	padding-top: 35px;
+}
+
+/*
+*=======================================================================================================
+* INDEX-CONTENT
+*=======================================================================================================
+*/
+
+/* --- index-content ---*/
+
+.index-content .background-color {
+	opacity: 0.9;
+}
+
+/* --- banner ---*/
+
+.banner img {
+	display: block;
+	width: 100%;
+}
+.banner .carousel-caption h6 {
+	text-transform: uppercase;
+}
+
+/*
+*=======================================================================================================
+* FORCANDIDATES-CONTENT
+*=======================================================================================================
+*/
+
+.forcandidates-content .background-color {
+	opacity: 0.9;
+}
+.forcandidates-content ol {
+	padding-left: 60px;
+	color: #fff;
+	margin: 20px 0;
+}
+.forcandidates-content li {
+	padding-top: 15px;
+}
+.forcandidates-content p span {
+	font-size: 16px;
+	padding-right: 5px;
+}
+.forcandidates-content p a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #757981;
+	padding: 2px;
+	margin-left: 0;
+}
+.forcandidates-content p a:hover,
+.forcandidates-content p a:focus {
+	color: #ff6002;
+	border: 1px solid #ff6002;
+}
+.forcandidates-content .footer-content {
+	margin-top: 100px;
+}
+
+/*
+*=======================================================================================================
+* FOOTER
+*=======================================================================================================
+*/
+
+/* --- footer-content ---*/
+
+.footer-content {
+	margin-top: 75px;
+}
+.footer-content p {
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.footer-content p span {
+	font-weight: 800;
+}
+
+/*
+*=======================================================================================================
+* MEDIA
+*=======================================================================================================
+*/
+
+/* Medium Devices, Desktops */
+
+@media (min-width: 992px) {
+
+	.header-content {
+		padding-left: 60px;
+	}
+	.banner .carousel-caption {
+		width: 450px;
+		top: 25%;
+		left: 58%
+	}
+
+}
+
+/* Small Devices, Tablets */
+
+@media (min-width: 768px) {
+
+	.banner .carousel-caption h1 {
+		text-transform: uppercase;
+	}
+	.header-content {
+		padding-right: 60px;
+	}
+	.forcandidates-content p span {
+		padding-right: 15px;
+	}
+	.forcandidates-content p a {
+		padding: 5px;
+		margin-left: 20px;
+	}
+}
