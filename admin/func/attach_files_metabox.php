@@ -26,7 +26,6 @@ function expat_attach_files() {
 function expat_doc_attachment() {
 	global $post;
 	$doc = get_post_meta( $post->ID, 'expat_doc_attachment', true );
-	// die(print_r($doc));
 
 	wp_nonce_field(plugin_basename(__FILE__), 'expat_doc_attachment_nonce');
 
@@ -106,13 +105,11 @@ function save_custom_meta_data($id) {
 				for ($i=0; $i<count($_POST['expat_doc_attachment_url']); $i++) {
 					$visible_files[] = basename($_POST['expat_doc_attachment_url'][$i]);
 				}
-// die(print_r($visible_files));
 				$doc = get_post_meta($id, 'expat_doc_attachment', true);
 				$uploaded = array();
 				for ($i=1; $i<count($doc); $i++) {
 					$uploaded[] = basename($doc[$i]['file']);
 				}
-// die(print_r($uploaded));
 				for ($i=0; $i<count($uploaded); $i++) {
 					if (!in_array($uploaded[$i], $visible_files)) {
 						if (unlink($doc[$i+1]['file'])) {
