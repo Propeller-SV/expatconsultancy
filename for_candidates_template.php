@@ -24,7 +24,7 @@
 											$url = $doc[$i]['url'];
 											?>
 												<li>
-													<p><?php echo $filename . '&nbsp; &nbsp; &nbsp; &nbsp;' . $extension . ' file'; ?><a href="<?php echo $url; ?>" role="button"><?php _e('Download', 'expatconsultany') ?></a></p>
+													<p><?php echo $filename . '&nbsp; &nbsp; &nbsp;' . $extension . __(' file ', 'expatconsultany'); ?><a href="<?php echo $url; ?>" role="button"><?php _e('Download', 'expatconsultany') ?></a></p>
 												</li>
 											<?php
 										}

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Expatconsultany\n"
-"POT-Creation-Date: 2015-07-16 20:48+0200\n"
-"PO-Revision-Date: 2015-07-16 20:49+0200\n"
+"POT-Creation-Date: 2015-07-16 21:00+0200\n"
+"PO-Revision-Date: 2015-07-16 21:04+0200\n"
 "Last-Translator: \n"
 "Language-Team: Fractal Soft <sales@fractal-soft.com>\n"
 "Language: ru_RU\n"
@@ -49,6 +49,10 @@ msgstr "Авторские права от"
 #: footer.php:3
 msgid "Designed by"
 msgstr "Дизайн от"
+
+#: for_candidates_template.php:27
+msgid " file "
+msgstr " файл "
 
 #: for_candidates_template.php:27
 msgid "Download"
