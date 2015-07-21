@@ -35,7 +35,7 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="col-xs-12 col-sm-6">
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo pull-left">EXPAT<span>CONSULT</span>ANY.com</a>
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo pull-left"><?php if (strpos(strtolower(get_bloginfo( 'name' )), 'expatconsultancy') !== false) echo 'EXPAT<span>CONSULT</span>ANCY.com'; else bloginfo( 'name' ); ?></a>
 					</div>
 					<!-- Polylang language switcher -->
 					<?php
