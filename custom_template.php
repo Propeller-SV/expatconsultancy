@@ -10,11 +10,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="background-color">
-					<?php
-					while ( have_posts() ) : the_post();
-						?><p class="content-text"><?php echo get_the_content();?> </p><?php
-					endwhile;
-					?>
-
+				<div class="background-color content-text">
+					<?php while ( have_posts() ) : the_post(); ?>
+						<?php the_content(); ?>
+					<?php endwhile;	?>
 <?php get_footer(); ?>
